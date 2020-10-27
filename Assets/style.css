@@ -1,0 +1,57 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    background: #3E3E3E;
+}
+
+.bigBold{
+    font-weight: bold;
+    font-size: 18px;
+    color: #C41200;
+    }
+
+.boldColor{
+    font-weight: bold;
+    color: #C41200;
+}
+
+.bgHeader{
+    background-image: url("Graphismes/bgHeader.jpg");    
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+}
+
+.bgCompetences{
+    background-image: url("Graphismes/bgCompetences.jpg");    
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+}
+
+.bgExperience{
+    background-image: url("Graphismes/bgExperience.jpg");    
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+}
+
+.bgFormation{
+    background-image: url("Graphismes/bgFormation.jpg");    
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+}
+
+.bgPortfolio{
+    background-image: url("Graphismes/bgPortfolio.jpg");    
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:100vh;
+}
+.bgContact{
+    background-image: url("Graphismes/bgContact.jpg");    
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:100vh;
+}
