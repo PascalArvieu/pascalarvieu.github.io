@@ -1,12 +1,27 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     background: #3E3E3E;
 }
 
+
+.carouselAbc{
+    height: 150px;
+}
+
+.titres{
+    /* background: #C41200; */
+    font-weight: 700;
+    font-size: 55px;
+    padding-top: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: #C41200;
+    }
+
 .bigBold{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
     color: #C41200;
     }
 
@@ -18,40 +33,40 @@ body {
 .bgHeader{
     background-image: url("Graphismes/bgHeader.jpg");    
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     height:100vh;
 }
 
 .bgCompetences{
     background-image: url("Graphismes/bgCompetences.jpg");    
     background-repeat: no-repeat;
-    background-size:cover;
-    height:100vh;
+    background-size: cover;
 }
 
 .bgExperience{
     background-image: url("Graphismes/bgExperience.jpg");    
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     height:100vh;
 }
 
 .bgFormation{
     background-image: url("Graphismes/bgFormation.jpg");    
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     height:100vh;
 }
 
 .bgPortfolio{
     background-image: url("Graphismes/bgPortfolio.jpg");    
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: cover;
     height:100vh;
 }
-.bgContact{
+
+.bgContact{    
     background-image: url("Graphismes/bgContact.jpg");    
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: cover;
     height:100vh;
 }

@@ -9,8 +9,10 @@
   <link rel="stylesheet" href="Assets/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap"
     rel="stylesheet">
-  <title>CV Numérique Bootstrap</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Bonjour, je suis Pascal Arvieu !</title>
 </head>
+
 
 <body>
   <header>
@@ -35,18 +37,8 @@
           <li class="nav-item">
             <a class="nav-link" href="#formation">Formation</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Portfolio
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#webDesign">Web design</a>
-              <a class="dropdown-item" href="#motionDesign">Motion design</a>
-              <a class="dropdown-item" href="#illustration">Illustration</a>
-              <a class="dropdown-item" href="#presse">Presse</a>
-              <a class="dropdown-item" href="#coco19">Qui est Coco19 ?</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -56,64 +48,258 @@
       </div>
     </nav>
 
-    <div id="accueil" class="container-fluid bgHeader text-white">
-      <p class="offset-7 col-4 align-text-bottom">Bonjour, je m'appelle Pascal Arvieu<br>
-        Aquibus restend itassimi, sin errum a consequ iaessinvendi sitatempor si ium adit auditatur secestis
-        eatur.<br>
-        Tot alictor essinct inulpa quiat quiamus rererum quo dolupta temperisciet aut idis nonectotatur aut offici
-        beaquod itatusc idunditatur reperrorpor aliquas vendit lacestrum volorep ediant evellescium.<br>
-        Equias essed undant pro tem consequidusa sam ipitem que quati venihicitate porum aperspe rchilloris aut
-        maximusam utem ame latur, sunti vel il maximaionse magnis cusam rest mostiam.
-      </p>
+    <!-- PAGE D'ACCUEIL -->
+
+    <!-- d-flex et align-self-center on bougé mon texte -->
+    <div id="accueil" class="container-fluid d-flex bgHeader text-white">
+      <div class="row align-self-center offset-7 col-4 animate__animated animate__backInDown">
+        <p> Bonjour, je m'appelle Pascal Arvieu.</p>
+        <p>J’ai longtemps été directeur artistique dans la presse – <em>Les Inrockuptibles, Siné Hebdo</em> – avant de
+          me lancer
+          dans le web design.</p>
+        <p>Je suis créatif mais rigoureux, autonome mais collectif, à l’écoute des tendances mais je sais aussi m’en
+          distancier.
+        </p>
+        <p>J’aime jouer avec tout, les mots comme les images.</p>
+        <p>Vous en saurez plus en scrollant.</p>
+      </div>
     </div>
   </header>
 
-  <div id="competences" class="container-fluid bgCompetences text-white">
-    <div class="row">
-      <div class="offset-1 col-2">
-        <p class="font-weight-bold text-warning">Langues</p>
-        <p>Anglais courant (B2)</p>
-        <p>Espagnol scolaire (A2)</p>
+  <!-- PAGE COMPETENCES -->
+
+  <div id="competences" class="row d-flex container-fluid bgCompetences text-white">
+    <div class="align-self-center offset-2 col-8">
+      <ul class="list-inline titres text-white">
+        <li class="list-inline-item">Ce que</li>
+        <li class="list-inline-item">je sais</li> <!-- Mot à remplacer -->
+        <li class="list-inline-item">faire</li>
+      </ul>
+    </div>
+
+    <div class="offset-2 col-2">
+      <p class="bigBold text-warning">Graphisme</p>
+      <div id="myProgress">
+        <div id="myBar"></div>
       </div>
-      <div class="offset-1 col-2">
-        <p class="font-weight-bold text-warning">Adobe Creative Suite</p>
-        <p>Photoshop</p>
-        <p>Illustrator</p>
-        <p>InDesign</p>
-        <p>After Effects</p>
-        <p>XD</p>
-        <p>Premiere Pro</p>
+      <p>Adobe Photoshop</p>
+      <div id="myProgress">
+        <div id="myBar"></div>
       </div>
-      <div class="offset-1 col-2">
-        <p class="font-weight-bold text-warning">Codage</p>
-        <p>HTML 5</p>
-        <p>CSS 6</p>
-        <p>Javascript</p>
-        <p>Wordpress</p>
-        <p>Bootstrap 4</p>
+      <p>Adobe Illustrator</p>
+      <div id="myProgress">
+        <div id="myBar"></div>
       </div>
+      <p>Adobe InDesign</p>
+      <p class="bigBold pt-5 text-warning">Prototypage</p>
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <p>Adobe XD</p>
+    </div>
+
+    <div class="offset-1 col-2 mb-5">
+      <p class="bigBold text-warning">Codage</p>
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <p class="pb-0">HTML 5</p>
+
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <p>CSS 6</p>
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <p>Javascript</p>
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <p>Wordpress</p>
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <p>Bootstrap 4</p>
+      <p class="bigBold pt-5 text-warning">Langues</p>
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <p>Anglais courant (B2)</p>
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <p>Espagnol scolaire (A2)</p>
+    </div>
+
+    <div class="offset-1 col-2">
+      <p class="bigBold text-warning">Montage vidéo</p>
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <p>Adobe Premiere Pro</p>
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <p>Final Cut 6</p>
+      <p class="bigBold pt-5 text-warning">Motion design</p>
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <p>Adobe After Effects</p>
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <p>Motion</p>
     </div>
   </div>
 
 
-  <div id="experience" class="container-fluid bgExperience">
-    <div class="row">
-      <div class="offset-1 col-2">
-        <p class="bigBold">2019</p>
-        <p class="boldColor">La Cinémathèque française</p>
-        <p>Web design et motion design</p>
-      </div>
+  <!-- PAGE EXPERIENCE -->
+
+  <div id="experience" class="row d-flex container-fluid bgExperience">
+    <div class="align-self-center offset-1 col-7">
+      <ul class="list-inline titres text-white">
+        <li class="list-inline-item text-right">Les boîtes où j'ai</li>
+        <li class="list-inline-item">exercé</li> <!-- Mot à remplacer -->
+      </ul>
+    </div>
+
+    <!-- menu déroulant gauche : résumé -->
+
+    <div class="overflow-auto offset-2 col-3 h-50">
+      <p><span class="bigBold">2020</span><br>
+        <span class="boldColor">Ecoslops (Cleantech)</span><br>
+        <span class="font-weight-bold">Motion design en freelance</span>
+
+      <p><span class="bigBold">2019-2020</span><br>
+        <span class="boldColor">Funnyfox, ActIn Games, Le Droit de perdre </span><br>
+        <span class="font-weight-bold">Motion design en freelance</span>
+
+      <p><span class="bigBold">2019</span><br>
+        <span class="boldColor">La Cinémathèque française</span><br>
+        <span class="font-weight-bold">Stage au service web</span>
+
+      <p><span class="bigBold">2019</span><br>
+        <span class="boldColor">La Cimade</span><br>
+        <span class="font-weight-bold">Motion design</span>
+
+      <p><span class="bigBold">1991>2018</span><br>
+        <span class="boldColor">Les Inrockuptibles</span><br>
+        <span class="font-weight-bold">Directeur artistique</span>
+
+      <p><span class="bigBold">2008>2009</span><br>
+        <span class="boldColor">Siné Hebdo</span><br>
+        <span class="font-weight-bold">Graphiste Freelance</span>
+
+      <p><span class="bigBold">1991>1994</span><br>
+        <span class="boldColor">studio Bulldog Design</span><br>
+        <span class="font-weight-bold">Graphiste Freelance</span>
+
+      <p><span class="bigBold">1987>1990</span><br>
+        <span class="boldColor">Gabrielle, agence de publicité - Lyon</span></p>
+    </div>
+
+    <!-- fenêtre droite : détaillé -->
+
+    <div class="overflow-auto offset-1 col-5 bg-info h-50" id="ecoslops">
+      <p><span class="bigBold">2020</span><br>
+        <span class="boldColor">Ecoslops (Cleantech)</span><br>
+        <span class="font-weight-bold">Motion design en freelance</span><br>
+        <span class="body">Réalisation d’un film d’animation décrivant leur process industriel de recyclage des résidus
+          pétroliers</span></p>
+
+      <p><span class="bigBold">2019-2020</span><br>
+        <span class="boldColor">Funnyfox, ActIn Games, Le Droit de perdre </span><br>
+        <span class="font-weight-bold">Motion design en freelance</span><br>
+        <span class="body">Réalisation de films d’explications de règles de jeux de société</span>
+
+      <p><span class="bigBold">2019</span><br>
+        <span class="boldColor">La Cinémathèque française</span><br>
+        <span class="font-weight-bold">Stage au service web</span><br>
+        <span class="body">bandes annonces et stories pour les réseaux sociaux, infographies en motion design
+        </span></p>
+
+      <p><span class="bigBold">2019</span><br>
+        <span class="boldColor">La Cimade</span><br>
+        <span class="font-weight-bold">Motion design</span><br>
+        <span class="body">Clip de sensibilisation aux problèmes administratifs des migrants et réfugiés</span></p>
+
+      <p><span class="bigBold">1991>2018</span><br>
+        <span class="boldColor">Les Inrockuptibles</span><br>
+        <span class="font-weight-bold">Directeur artistique</span><br>
+        <span class="body">Encadrant une équipe de cinq maquettistes, j’assure la qualité graphique et le respect du
+          planning du magazine :<br>
+          - 120 pages et deux bouclages par semaine, vingt suppléments par an,<br>
+          - conception et réalisation des couvertures, CDs, coffrets, DVDs, affiches…<br>
+          - maquettes sur InDesign, retouches et trucages d’images sur Photoshop,<br>
+          - aide à l’éditing (choix de titres, d’accroches de couvertures)<br>
+          - choix, brief et suivi des illustrateurs,<br>
+          - nombreux suppléments et numéros spéciaux…<br>
+          - chartes graphiques des 6 nouvelles formules de l’hebdomadaire,<br>
+          - charte graphique du bimestriel Volume lancé par les Inrockuptibles (100 pages).<br>
+          - digitalisation et interactivité de l’hebdo pour les tablettes numériques
+        </span></p>
+
+      <p><span class="bigBold">2008>2009</span><br>
+        <span class="boldColor">Siné Hebdo</span><br>
+        <span class="font-weight-bold">Graphiste Freelance</span><br>
+        <span class="body">Création de la charte graphique et suivi maquette de l’hebdomadaire satirique fondé par le
+          dessinateur Siné (16 pages, tabloïd)</span></p>
+
+      <p><span class="bigBold">1991>1994</span><br>
+        <span class="boldColor">studio Bulldog Design</span><br>
+        <span class="font-weight-bold">Graphiste Freelance</span><br>
+        <span class="body">Affiches, pochettes de disques, annonces presse pour l’industrie musicale</span></p>
+
+      <p><span class="bigBold">1987>1990</span><br>
+        <span class="boldColor">Gabrielle, agence de publicité - Lyon</span><br>
+        <span class="font-weight-bold">Maquettiste puis directeur artistique</span><br>
+        <span class="body">Logos, plaquettes, annonces presse, roughs, wording (création de slogans, recherche de noms
+          de marques ou de produits)</span></p>
     </div>
   </div>
 
+  <!-- PAGE FORMATION -->
 
-  <div id="formation" class="container-fluid bgFormation">
+  <div id="experience" class="row d-flex container-fluid bgFormation">
+    <div class="align-self-center offset-5 col-6">
+      <ul class="list-inline titres text-white">
+        <li class="list-inline-item text-right">Comment j'ai</li>
+        <li class="list-inline-item">appris</li> <!-- Mot à remplacer -->
+      </ul>
+    </div>
+
+
+    <div class="col-2">
+      <p><span class="bigBold">1982</span><br>
+        <span class="boldColor">Bac D</span><br>
+        <span class="font-weight-bold">Sciences et biologie, option dessin</span><br>
+    </div>
+    <!-- 1984
+    BTS publicité, option maquette
+    1990
+    Premiers contacts avec un ordinateur de bureau
+    Formation à Adobe Photoshop, Quark XPress et Aldus Freehand (l’ancêtre d’Illustrator)
+    2011
+    Tour du monde avec mes enfants de 6 et 9 ans
+    6 mois, sac au dos, de l’Australie à la Russie, en passant par l’Indonésie, la Malaisie, le Cambodge, le Vietnam, la
+    Chine et la Mongolie
+    2019
+    Formation graphiste plurimédia : web design, motion design et vidéo pour le web
+    Ecole des métiers de l’information (EMI), Paris
+    2020
+    Formation web design et communication digitale
+    La Manu, L’école des métiers du numérique, distanciel -->
   </div>
 
 
-  <div id="portfolio">
-    <div class="container">
-      <div id="webDesign" class="carousel slide offset-1 col-10" data-ride="carousel">
+  <!-- PAGE PORTFOLIO -->
+
+  <div id="portfolio" class="row d-flex container-fluid bgPortfolio">
+    <div class="carouselAbc">
+
+      <div id="webDesign" class="carouselAbc slide offset-1 col-10" data-ride="carousel">
         <!-- Indicateurs -->
         <ul class="carousel-indicators">
           <li data-target="#webDesign" data-slide-to="0" class="active"></li>
@@ -162,10 +348,25 @@
         </div>
       </div>
     </div>
-
-  <div id="Contact" class="container-fluid bgContact">
+    </div>
   </div>
-  
+
+  <!-- PAGE CONTACT -->
+
+
+  <div id="contact" class="row d-flex container-fluid bgContact">
+    <div class="align-self-center offset-1 col-7">
+      <ul class="list-inline titres text-white">
+        <li class="list-inline-item">mon profil vous ?</li>
+        <li class="list-inline-item">intéresse ?</li> <!-- Mot à remplacer -->
+      </ul>
+    </div>
+    <div class="col-2">
+      <p><span class="bigBold">Téléphone</span><br>
+        <span class="boldColor"> 06 72 33 87 45</span><br>
+        <span class="font-weight-bold">Sciences et biologie, option dessin</span><br>
+    </div>
+  </div>
 
 
 
@@ -173,6 +374,12 @@
   <!--Footer -->
 
 
+  <!--JQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/JS/script.js"></script>
+
+  <!--Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
